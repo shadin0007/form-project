@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(178, 26, 195);
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+
+}
+.container{
+  
+    height: 450px;
+    padding: 2rem;
+    margin: 0 auto;
+    
+}
+
+.section .form{
+    background-color: white;
+    height:500px ;
+    width: 400px;
+    margin: 20px auto;
+    border-radius: 16px;
+    box-shadow: 27px 22px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 27px 22px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 27px 22px 5px 0px rgba(0,0,0,0.75);
+}
+
+.section h2{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    letter-spacing: 1.6px;
+    color: rgb(92, 16, 97);
+    padding: 15px;
+    
+}
+
+
+.section .form label{
+    display: block;
+    padding:10px;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.section .form input{
+    margin-left: 10px;
+    height: 40px;
+    width: 93%;
+    box-sizing: border-box;
+    border: 1.5px solid black;
+    border-bottom: 5px solid black;
+     border-right: 5px solid black;
+     box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+    
+}
+.section .form input:focus{
+    outline: 1px solid pink;
+    color: purple;
+    padding: 10px;
+}
+::-webkit-input-placeholder{
+    padding: 10px;
+    margin:20px;
+}
+
+.section .form button{
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin: 10px;
+    width: 93%;
+    position: relative;
+    top: 20px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: rgb(128, 26, 159);
+    border-right: 6px solid black;
+     border-bottom: 6px solid black;
+      box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight: 500;
+margin-bottom: 45px;
+}
+
+
+.section .form p{
+      
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+}
+
+
+@media screen and (max-width:430px){
+    body{
+    background-color: rgb(178, 26, 195);
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+
+}
+.container{
+  
+    height: 350px;
+    padding: 2rem;
+    margin: 0 auto;
+    
+}
+
+.section .form{
+    background-color: white;
+    height:500px ;
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 16px;
+    box-shadow: 27px 22px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 27px 22px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 27px 22px 5px 0px rgba(0,0,0,0.75);
+}
+
+.section h2{
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 2rem;
+    letter-spacing: 1.6px;
+    color: rgb(92, 16, 97);
+    padding: 15px;
+    
+}
+
+
+.section .form label{
+    display: block;
+    padding:10px;
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.section .form input{
+    margin-left: 10px;
+    height: 40px;
+    width: 93%;
+    box-sizing: border-box;
+    border: 1.5px solid black;
+    border-bottom: 5px solid black;
+     border-right: 5px solid black;
+     box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+    
+}
+.section .form input:focus{
+    outline: 1px solid pink;
+    color: purple;
+    padding: 10px;
+}
+::-webkit-input-placeholder{
+    padding: 10px;
+    margin:20px;
+}
+
+.section .form button{
+    font-size: 1.2rem;
+    margin-top: 30px;
+    margin: 10px;
+    width: 93%;
+    position: relative;
+    top: 20px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 30px;
+    background-color: rgb(128, 26, 159);
+    border-right: 6px solid black;
+     border-bottom: 6px solid black;
+      box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-weight: 500;
+margin-bottom: 45px;
+}
+
+
+.section .form p{
+      
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+}
+}
